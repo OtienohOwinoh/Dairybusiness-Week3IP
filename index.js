@@ -66,4 +66,29 @@ function produceReport(){
     document.getElementById("dataOutput").innerHTML += "<p> Your total income for November is Ksh. " + incomeNovember + " </p>"
     document.getElementById("dataOutput").innerHTML += "<p> Your total income for December is Ksh. " + incomeDecember + " </p>"
 
+
+
+    document.getElementById("dataOutput").innerHTML += "<Br>"
+
+    document.getElementById("dataOutput").innerHTML += "<hr>"
+
+    incomeInLeapYear = dailyIncome * 366;
+
+    document.getElementById("dataOutput").innerHTML += "<p>Your total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
+
+    document.getElementById("dataOutput").innerHTML += "<hr>"
+
+    document.getElementById("dataOutput").innerHTML += "<Br>"
+
+    newDailyIncome = sumData * 49.60;
+
     
+
+
+
+
+
+
+
+
+}    

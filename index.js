@@ -39,12 +39,31 @@ function produceReport(){
     document.getElementById("dataOutput").innerHTML += "<Br>"
 
 
+    incomeJanuary = dailyIncome * 31;
+    incomeFebruary = dailyIncome * 29;
+    incomeMarch = dailyIncome * 31;
+    incomeApril = dailyIncome * 30;
+    incomeMay = dailyIncome * 31;
+    incomeJune = dailyIncome * 30;
+    incomeJuly = dailyIncome * 31;
+    incomeAugust = dailyIncome * 31;
+    incomeSeptember = dailyIncome * 30;
+    incomeOctober = dailyIncome * 31;
+    incomeNovember = dailyIncome * 30;
+    incomeDecember = dailyIncome * 31;
+
+
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for January is Ksh. " + incomeJanuary + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for February is Ksh. " + incomeFebruary + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for March is Ksh. " + incomeMarch + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for April is Ksh. " + incomeApril + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for May is Ksh. " + incomeMay + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for June is Ksh. " + incomeJune + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for July is Ksh. " + incomeJuly + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for August is Ksh. " + incomeAugust + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for September is Ksh. " + incomeSeptember + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for October is Ksh. " + incomeOctober + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for November is Ksh. " + incomeNovember + " </p>"
+    document.getElementById("dataOutput").innerHTML += "<p> Your total income for December is Ksh. " + incomeDecember + " </p>"
+
     
-
-
-
-
-
-
-
-}

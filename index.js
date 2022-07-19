@@ -21,7 +21,7 @@ function produceReport(){
     document.getElementById("dataOutput").innerHTML += "<p>Your total production per day is " + sumData + " litres per day</p>";
 
 
-
+    dailyIncome = sumData * 45;
 
 
 

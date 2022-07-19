@@ -32,6 +32,19 @@ function produceReport(){
     document.getElementById("dataOutput").innerHTML += "<hr>"
 
 
+    document.getElementById("dataOutput").innerHTML += "<p>Your total weekly income is Ksh. " + weeklyIncome + " </p>";
+
+    document.getElementById("dataOutput").innerHTML += "<hr>"
+
+    document.getElementById("dataOutput").innerHTML += "<Br>"
+
+
+    
+
+
+
+
+
 
 
 }

@@ -11,7 +11,14 @@ function produceReport(){
 
     let sumData = data.shed_a + data.shed_b + data.shed_c + data.shed_d;
 
-    document.getElementById("dataoutput").innerHTML += "<Br>"
+    document.getElementById("dataOutput").innerHTML += "<Br>"
+
+    document.getElementById("dataOutput").innerHTML += "<p>Your production in shed A is " + data.shed_a + " litres per day</p>";
+    document.getElementById("dataOutput").innerHTML += "<p>Your production in shed B is " + data.shed_b + " litres per day</p>";
+    document.getElementById("dataOutput").innerHTML += "<p>Your production in shed C is " + data.shed_c + " litres per day</p>";
+    document.getElementById("dataOutput").innerHTML += "<p>Your production in shed D is " + data.shed_d + " litres per day</p>";
+
+    document.getElementById("dataOutput").innerHTML += "<p>Your total production per day is " + sumData + " litres per day</p>";
 
 
 

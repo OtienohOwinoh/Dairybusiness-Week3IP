@@ -23,6 +23,14 @@ function produceReport(){
 
     dailyIncome = sumData * 45;
 
+    document.getElementById("dataOutput").innerHTML += "<Br>"
+
+    document.getElementById("dataOutput").innerHTML += "<hr>"
+
+    document.getElementById("dataOutput").innerHTML += "<p>Your total daily income is Ksh. " + dailyIncome + " </p>";
+
+    document.getElementById("dataOutput").innerHTML += "<hr>"
+
 
 
 

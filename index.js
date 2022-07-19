@@ -11,7 +11,7 @@ function produceReport(){
 
     let sumData = data.shed_a + data.shed_b + data.shed_c + data.shed_d;
 
-    document.getElementById("outputData").innerHTML += "<Br>"
+    document.getElementById("dataoutput").innerHTML += "<Br>"
 
 
 
